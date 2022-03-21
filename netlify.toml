@@ -10,3 +10,6 @@
 
 [context.branch-deploy.environment]
   ACCESS_TOKEN = "a branch deploy secret"
+
+[context.deploy-preview.environment]
+  ACCESS_TOKEN = "a deploy preview secret"
