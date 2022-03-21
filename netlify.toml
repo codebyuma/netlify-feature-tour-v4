@@ -7,3 +7,6 @@
 # will inherit these settings.
 [context.production]
   environment = { ACCESS_TOKEN = "a production secret"}
+
+[context.branch-deploy.environment]
+  ACCESS_TOKEN = "a branch deploy secret"
