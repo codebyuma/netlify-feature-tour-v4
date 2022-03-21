@@ -1,0 +1,9 @@
+# Settings in the [build] context are global and are applied to 
+# all contexts unless otherwise overridden by more specific contexts. 
+[build]
+
+# Production context: all deploys from the Production branch 
+# set in your site’s Branches settings in the UI
+# will inherit these settings.
+[context.production]
+  environment = { ACCESS_TOKEN = "a production secret"}
